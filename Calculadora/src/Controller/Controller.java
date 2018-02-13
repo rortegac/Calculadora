@@ -69,9 +69,9 @@ public class Controller {
      * @return
      */
     public Calculadora generaCalculadora(String Evaluable) {
-        return new Calculadora();
+        return new Calculadora(Evaluable);
     }
-    
+    /**PRUEBA FRAN*/
     
     
 }
