@@ -11,11 +11,24 @@ package calculadora;
  */
 public class Calculadora {
 
+    private int resultado;
+    private String evaluable;
+    
     /**
-     * @param args the command line arguments
+     * Contructor de la calculadora, en principio pienso qeu debe recibir por parámetros los valores que usuara
+     * para calcular el resultado final
+     * @param evaluable String, contenido que sera evaluado para generar loas cálculos
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public Calculadora(String evaluable) {
+        this.evaluable = evaluable;
+    }
+    
+    /**
+     * Coge la variable evaluable y la convierte en un int que puede ser procesada y calculada, puede incluso devolver el resultado final.
+     * @return int,
+     */
+    public int convertEvaluable() {
+        return 0;
     }
     
 }
