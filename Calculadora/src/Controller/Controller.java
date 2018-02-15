@@ -71,7 +71,6 @@ public class Controller {
     public Calculadora generaCalculadora(String Evaluable) {
         return new Calculadora(Evaluable);
     }
-    /**PRUEBA FRAN 2*/
     
     
 }
